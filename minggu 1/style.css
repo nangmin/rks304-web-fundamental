@@ -1,0 +1,295 @@
+
+
+body {
+    background-color: #d3d3d3;
+    color: #202020;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+header {
+    background-color: #202020;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #444444;
+}
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.profile-foto img {
+    border-radius: 20px;
+    display: block;
+}
+
+.profile-info {
+    max-width: 550px;
+}
+
+.profile-judul {
+    background-color: #eeeeee;
+    padding: 20px 25px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.profile-judul h2 {
+    margin-top: 0;
+}
+
+.bio {
+    background-color: #eeeeee;
+    padding: 20px 25px;
+    border-radius: 15px;
+}
+
+.bio p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.judul-halaman {
+    background-color: #eeeeee;
+    padding: 15px 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.judul-halaman h2 {
+    margin: 0;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.skill {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.skill-grafis {
+    width: 50px;
+    height: 50px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-grafis img {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.skill-nama {
+    font-weight: bold;
+}
+
+
+.pendidikan {
+    margin-bottom: 50px;
+}
+
+.pendidikan h2 {
+    background-color: #eeeeee;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.pendidikan-jenjang {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pendidikan-grafis {
+    width: 90px;
+    height: 60px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pendidikan-grafis img {
+    max-width: 80px;
+    max-height: 50px;
+}
+
+.pendidikan-nama {
+    font-weight: bold;
+}
+
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.project-jenis article {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.project-nama h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.project-deskripsi p {
+    line-height: 1.6;
+}
+
+.Teknologi h4 {
+    margin-bottom: 10px;
+}
+
+.teknologi-card {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: fit-content;
+}
+
+.teknologi-grafis {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teknologi-grafis img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.teknologi-nama {
+    font-weight: bold;
+}
+
+.tombol-referensi {
+    margin-top: 20px;
+}
+
+.tombol-referensi a {
+    display: inline-block;
+    background-color: #202020;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.tombol-referensi a:hover {
+    background-color: #444444;
+}
+
+.contact {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.tombol-kirim {
+    margin-top: 10px;
+}
+
+.tombol-kirim button {
+    background-color: #202020;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tombol-kirim button:hover {
+    background-color: #444444;
+}
+
+footer {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}

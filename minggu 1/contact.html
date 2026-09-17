@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="judul-halaman">
+                <h2>hubungi Saya</h2>
+            </div>
+            <div class="contact">
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telepon">Nomor Telepon</label>
+                        <input type="tel" id="telepon" name="telepon" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="kategori">kategori</label>
+                        <select name="kategori" id="kategori" required>
+                            <option value="">Pilih Kategori</option>
+                            <option value="konsultasi">Konsultasi</option>
+                            <option value="kolaborasi">kolaborasi Proyek</option>
+                            <option value="pertanyaan">Pertanyaan Umum</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea name="pesan" id="pesan" rows="5" required></textarea>
+                    </div>
+
+                    <div class="tombol-kirim">
+                    <button type="submit">kirim pesan</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
