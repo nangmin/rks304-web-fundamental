@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Product</title>
+    <link rel="icon" type="image/png" href="foto/logo web.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-gray-800 min-h-screen flex flex-col">
+    <div 
+        class="fixed inset-0 bg-cover bg-center opacity-85 -z-10"
+        style="background-image: url('foto/background.png');">
+    </div>
+
+    <header class="bg-[#D2FF00] text-[#111112] p-1">
+        <h1 class="text-2xl font-bold px-4">Edit Product</h1>
+    </header>
+
+
+    <nav class="bg-[#111112] text-white p-4">
+        <div class="flex gap-5">
+            <a href="dashboard.html" class="hover:text-[#D2FF00]">Dashboard</a>
+            <a href="products.html" class="hover:text-[#D2FF00]">Products</a>
+            <a href="#" class="hover:text-[#D2FF00]">Users</a>
+            <a href="#" class="hover:text-[#D2FF00]">Setting</a>
+            <a href="index.html" class="text-[#D2FF00] hover:text-white">Logout</a>
+        </div>
+    </nav>
+
+
+    <main class="max-w-6xl mx-auto p-6 flex-1 w-full">
+
+        <h2 class="text-3xl text-white font-bold mb-6 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+            Edit Produk
+        </h2>
+
+        <form class="bg-white/50 p-5 rounded-lg shadow backdrop-blur-sm">
+
+            <div class="mb-4">
+                <label class="block mb-2 font-medium">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    value="Laptop"
+                    class="w-full bg-white/70 border rounded-lg px-4 py-2"
+                >
+            </div>
+
+            <div class="mb-4">
+                <label class="block mb-2 font-medium">
+                    Stock
+                </label>
+
+                <input
+                    type="number"
+                    value="10"
+                    class="w-full bg-white/70 border rounded-lg px-4 py-2"
+                >
+            </div>
+
+            <div class="mb-6">
+                <label class="block mb-2 font-medium">
+                    Description
+                </label>
+
+                <textarea
+                    class="w-full bg-white/70 border rounded-lg px-4 py-2"
+                    rows="4"
+                >Laptop untuk kebutuhan kerja dan belajar</textarea>
+            </div>
+
+            <button
+                type="submit"
+                class="bg-[#D2FF00] text- px-5 py-2 rounded-lg hover:bg-[#a9cc03]"
+            >
+                Submit
+            </button>
+
+        </form>
+
+    </main>
+
+
+    <footer class="bg-[#111112] text-white text-center p-6 w-full">
+        <p>&copy; 2026 Admin Panel</p>
+    </footer>
+
+</body>
+</html>
